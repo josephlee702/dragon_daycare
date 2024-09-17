@@ -1,9 +1,9 @@
-class AppointmentsController
-  def index
-    Appointment.all
-  end
+class Appointment < ActiveRecord::Base
+  has_one :note
 
-  def show(appointment_id)
-    Appointment.find(appointment_id)
-  end
+  # Schema:
+  #
+  # id: number (primary key)
+  # start_at: timestamp
+  # end_at: timestamp
 end
