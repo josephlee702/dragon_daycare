@@ -7,9 +7,9 @@ class RiskAnalysis
   end
 
   def determine_severity
-    if @answers[1] == "true" && @answers[3] == "true"
+    if @answers[1] == "yes" && @answers[3] == "yes"
       "immediate risk"
-    elsif @answers[0] == "true"
+    elsif @answers[0] == "yes"
       "high risk"
     else
       "low risk"
