@@ -1,10 +1,7 @@
 ##############
-# Emergency Dragon Care Services (EDCS), for the protection of your dragon,
-# and the community farms and pets.
-# EDCS is available as a 24/7 service and screens callers to gauge severity
-# and urgency of the dragon care situation at hand.
-# EDCS has hired you to programmatically categorize incoming calls into
-# three risk levels based on dragon caregiver's responses to the intake survey.
+# Emergency Dragon Care Services (EDCS), for the protection of your dragon, and the community farms and pets.
+# EDCS is available as a 24/7 service and screens callers to gauge severity and urgency of the dragon care situation at hand.
+# EDCS has hired you to programmatically categorize incoming calls into three risk levels based on dragon caregiver's responses to the intake survey.
 # These categories are "low risk", "high risk", and "immediate risk".
 
 # Acceptance Criteria
@@ -24,6 +21,4 @@
 # 4. Is your dragon looking at the neighbors goat, or other animal of unknown origin, while salivating? - Input: Yes/No
 # 5. Where is your dragon currently located? - Input: Freeform Text (edited)
 
-
-
-
+# we want a Dragon class, with a severity method
